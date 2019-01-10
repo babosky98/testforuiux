@@ -1,0 +1,64 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+
+/* Add the following to  include a centered image. */
+ background-image: url("../img/HeaderImg.jpg");
+
+
+ /* Center and scale the image. */
+ background-position: right;  /* This value can also be left, right */
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: 'PT Serif', serif;;
+ color:#2E4147;
+ 
+ 
+  
+
+}
+
+
+
+
+@media (min-width: 992px) {
+  header {
+    padding: 150px 0 150px;
+  }
+}
+
+section {
+  padding: 150px 0 100px;
+
+ /* Center and scale the image. */
+ font-family: 'Crimson Text', serif;
+ /* background-color:#D1D3C7; */
+}
+
+
+  /* Added CSS, 1.7.2019. 
+  These styles describes the colors of each section. */
+  #about{
+    background-color:#FCFCFC;
+    color: #1789AF;
+  
+    
+  }
+  
+  #myWebsite, #contact
+  {
+     /* Add the following to  include a centered image. */
+      background-image: url("../img/d-1.jpg");
+
+      /* Center and scale the image. */
+      background-position: right;  /* This value can also be left, right */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+ 
